@@ -65,8 +65,9 @@ def decryptMessage():
             decryptedMessage += decryptedMessage.join(char)
     print('Decrypting: ' + decryptedMessage + '\n')
 
-def __init__():
+def main():
     getInstruction()
     
 
-__init__()
+if __name__ == '__main__' :
+    main()
